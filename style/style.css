@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-content {
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 22px 15px 22px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 6px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+#hero {
+    height: 652px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 726px;
+
+}
+
+#hero .hero-content .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+#hero .hero-content .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 23px;
+}
+
+#card-box {
+    width: 937px;
+    margin: 100px auto;
+}
+
+/* #card-box .info {} */
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.card-conatiner {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-family: Work Sans;
+}
+
+.card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box {
+    width: 300px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    padding: 9px 22px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card p {
+    text-align: center;
+    opacity: 0.7;
+}
+
+.good-food-container {
+    display: flex;
+}
+
+.good-food-container .image-side {
+    width: 675px;
+}
+
+.good-food-container .image-side img {
+    width: 100%;
+}
+
+.text-side {
+    width: 792px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.text-side p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.text-side .follow-us {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 55px;
+   
+}
+
+
+.text-side .title {
+    width: 575px;
+    margin: 0px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.icons{
+    
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.card-section{
+    margin: 150px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    /* background-image: url(); */
+    background-image: linear-gradient(180deg, rgba(251, 252, 252, 0.937) -19.5%, rgba(241, 236, 236, 0.7) 100%), url(../assets/social-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 476px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
